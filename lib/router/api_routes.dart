@@ -5,7 +5,12 @@ class ApiRoutes {
 
   final character = "Character/";
 
+  final story = "Story/";
+
   String get eventUrl => baseUrl + event;
 
   String get characterUrl => baseUrl + character;
-}
+  
+  String get storyUrl => baseUrl + story;
+  
+  }
