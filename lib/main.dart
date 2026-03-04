@@ -198,12 +198,12 @@ class CharacterStatType {
   bool isActive;
 }
 
-   class CharacterStat<CharacterStatType> extends StatefulWidget{
-   const CharacterStat({required this.character, super.key});
-     final Character character;
+  //  class CharacterStat<CharacterStatType> extends StatefulWidget{
+  //  const CharacterStat({required this.character, super.key});
+  //    final Character character;
 
-    Widget build(BuildContext context) {
-      return DefaultTabController(length: length, child: child)
-    }
+  //   Widget build(BuildContext context) {
+  //     return DefaultTabController(length: length, child: child)
+  //   }
 
-  } 
+  // } 
